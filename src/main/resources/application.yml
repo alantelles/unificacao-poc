@@ -1,0 +1,12 @@
+micronaut:
+  application:
+    name: repassespoc
+datasources:
+  default:
+    url: jdbc:postgresql://localhost:5432/unificacao_poc
+    driverClassName: org.postgresql.Driver
+    username: zgbd
+    password: fibo123
+    schema-generate: UPDATE
+    dialect: POSTGRES
+jpa.default.properties.hibernate.hbm2ddl.auto: update
